@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    max-width: 86rem;
+    margin: 0px auto;
+    padding: 0px 3rem;
+    height: 128px;
+    background-color: red;
+}
+
+#logo{
+    width: 20px;
+}
+
+
+
+
+/* text-color */
+
+.text-black{
+    color : #ffffff;
+}
+
+.text-grey{
+    color : #ggg;
+}
+
+a{
+    margin: 0 20px;
+    vertical-align: -webkit-baseline-middle;
+    font-weight: bold;
+}
+
+.my-btn{
+    border-radius: 12px;
+    font-weight: bold;
+}
