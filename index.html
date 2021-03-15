@@ -13,79 +13,136 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
         <script src="assets\main.js" charset="utf-8"></script>
-
     </head>
+
     <body>
-
-
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="fixed-top">
+                <div  class="row my_navbar">
+                    <div class="col-6">
+                        <div class="row">
+                            <div class="col-12">
+                                <a class="navbar-brand" href="#"><img id="logo" class="mr-3" src="assets\img\logo.png"></a>
 
-                <div class="col-6">
-                    <a class="navbar-brand" href="#"><img id="logo" class="mr-3" src="assets\img\logo.png"></a>
+                                <a class="text-dark mr-3" href="#"><strong>Personal</strong></a>
 
+                                <a class="text-grey" href="#"><strong >Business</strong></a>
+                            </div>
+                        </div>
+                    </div>
 
-                    <a class="text-dark" href="#"><strong>Personal</strong></a>
+                    <div class="col-4 d-flex">
+                        <ul id="navMenu">
+                            <li class="cont_subMenu position-relative">
+                                <a class="menu" href="#">Features</a>
+                                <div class="subMenu">
+                                    <ul class="d-flex drop-menu">
+                                        <li>
+                                            <ul class="d-flex flex-column drop-menu">
+                                                <li>
+                                                    <a href="#">Action</a>
+                                                </li><!--
+                                                --><li><a href="#">Another action</a>
+                                                </li><!--
+                                                --><li><a href="#">Something else here</a></li>
+                                            </ul>
+                                        </li>
 
-                    <a href="#"><strong>Business</strong></a>
+                                        <li>
+                                            <ul class="d-flex flex-column drop-menu">
+                                                <li>
+                                                    <a href="#">Action</a>
+                                                </li><!--
+                                                --><li><a href="#">Another action</a>
+                                                </li><!--
+                                                --><li><a href="#">Something else here</a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li>
+                                            <ul class="d-flex flex-column drop-menu">
+                                                <li>
+                                                    <a href="#">Action</a>
+                                                </li><!--
+                                                --><li><a href="#">Another action</a>
+                                                </li><!--
+                                                --><li><a href="#">Something else here</a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li>
+                                            <ul class="d-flex flex-column drop-menu">
+                                                <li>
+                                                    <a href="#">Action</a>
+                                                </li><!--
+                                                --><li><a href="#">Another action</a>
+                                                </li><!--
+                                                --><li><a href="#">Something else here</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>      
+                                </div>
+                            </li>
+                            <li class="cont_subMenu position-relative">
+                                <a class="menu" href="#">Plans</a>
+                                <div class="subMenu">
+                                    <ul class="d-flex drop-menu">
+                                        <li>
+                                            <ul class="d-flex flex-column drop-menu">
+                                                <li>
+                                                    <a href="#">Action</a>
+                                                </li><!--
+                                                --><li><a href="#">Another action</a>
+                                                </li><!--
+                                                --><li><a href="#">Something else here</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>      
+                                </div>
+                            </li>
+                            <li class="cont_subMenu position-relative">
+                                <a class="menu" href="#">About us</a>
+                                <div class="subMenu">
+                                    <ul class="d-flex drop-menu">
+                                        <li>
+                                            <ul class="d-flex flex-column drop-menu">
+                                                <li>
+                                                    <a href="#">Action</a>
+                                                </li><!--
+                                                --><li><a href="#">Another action</a>
+                                                </li><!--
+                                                --><li><a href="#">Something else here</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>      
+                                </div>
+                            </li>
+                            <li class="cont_subMenu position-relative">
+                                <a class="menu" href="#">Help</a>
+                                <div class="subMenu">
+                                    <ul class="d-flex drop-menu">
+                                        <li>
+                                            <ul class="d-flex flex-column drop-menu">
+                                                <li>
+                                                    <a href="#">Action</a>
+                                                </li><!--
+                                                --><li><a href="#">Another action</a>
+                                                </li><!--
+                                                --><li><a href="#">Something else here</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>      
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="buttons-nav col-2">
+                        <a class="btn btn-secondary my-btn mr-3" href="#" role="button">Sign in</a>
+                        <button class="btn btn-dark my-btn" type="submit">Get the App</button>
+
+                    </div>
                 </div>
-
-                <div class="col-6 d-flex">
-                    <div class="">
-                      <a>
-                        Features
-                      </a>
-
-                      <div class="d-none">
-                        <a class="" href="#">Action</a>
-                        <a class="" href="#">Another action</a>
-                        <a class="" href="#">Something else here</a>
-                      </div>
-                    </div>
-
-                    <div class="">
-                      <a>
-                        Plans
-                      </a>
-
-                      <div class="d-none">
-                        <a class="" href="#">Action</a>
-                        <a class="" href="#">Another action</a>
-                        <a class="" href="#">Something else here</a>
-                      </div>
-                    </div>
-
-                    <div class="">
-                      <a>
-                        About us
-                      </a>
-
-                      <div class="d-none">
-                        <a class="" href="#">Action</a>
-                        <a class="" href="#">Another action</a>
-                        <a class="" href="#">Something else here</a>
-                      </div>
-                    </div>
-
-                    <div class="">
-                      <a>
-                        Help
-                      </a>
-
-                      <div class="d-none">
-                        <a class="" href="#">Action</a>
-                        <a class="" href="#">Another action</a>
-                        <a class="" href="#">Something else here</a>
-                      </div>
-                    </div>
-                    <a class="btn btn-primary my-btn" href="#" role="button">Sign in</a>
-                    <button class="btn btn-primary my-btn" type="submit">Get the App</button>
-
-
-                </div>
-
-
-
             </nav>
         </header>
 
